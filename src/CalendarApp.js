@@ -1,9 +1,12 @@
 import React from 'react';
+import MonthSlider from './MonthSlider';
 
 class CalendarApp extends React.Component {
     render() {
       return (
-        <h1>Hello, world!</h1>
+        <div>
+            <MonthSlider />
+        </div>
       );
     }
   }
