@@ -1,10 +1,19 @@
 .Row {
     display: table;
     width: 100%; /*Optional*/
-    table-layout: fixed; /*Optional*/
+    table-layout: fixed;/*Optional*/
     border-spacing: 10px; /*Optional*/
 }
-.Column {
+.Column_back {
     display: table-cell;
-    /*background-color: red; Optional*/
+    /*background-color: red; /*Optional*/
+}
+.Column_month {
+    display: table-cell;
+    text-align: center;
+    /*background-color: red; /*Optional*/
+}
+.Column_forward {
+    display: table-cell;
+    /*background-color: red; /*Optional*/
 }

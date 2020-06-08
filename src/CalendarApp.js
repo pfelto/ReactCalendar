@@ -1,12 +1,17 @@
 import React from 'react';
+import './CalendarApp.css';
 import MonthSlider from './MonthSlider';
+import DayTable from './DayTable';
 
 class CalendarApp extends React.Component {
     render() {
       return (
-        <div>
-            <MonthSlider />
-        </div>
+        <body>
+            <div>
+                <MonthSlider />
+                <DayTable />
+            </div>
+        </body>
       );
     }
   }

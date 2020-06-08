@@ -5,11 +5,11 @@ class MonthSlider extends React.Component {
     render() {
       return (
         <div className = "Row">
-            <button className = "Column">
+            <button className = "Column_back">
                 BACK
             </button>
-            <p className = "Column"> JUNE 2020 </p>
-            <button className = "Column">
+            <h1 className = "Column_month"> JUNE 2020 </h1>
+            <button className = "Column_forward">
                 FORWARD
             </button>
         </div>
