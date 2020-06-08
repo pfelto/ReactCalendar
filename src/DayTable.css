@@ -1,21 +1,11 @@
-.calendar-row:after {
-    clear: both;
-    content: "";
-    display: table;
-    padding-left: 2px; padding-right: 2px; margin-left: 2px; margin-right: 2px;
+table{
+    width:100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
   }
-  .Row {
-    display: table;
-    width: 100%; /*Optional*/
-    table-layout: fixed; /*Optional*/
-    border-spacing: 10px; /*Optional*/
-    border-style: solid;
-}
-.Column {
-    display: table-cell;
-    text-align: center;
-    /*background-color: red; Optional*/
-}
 
 body {
     border-style: solid;

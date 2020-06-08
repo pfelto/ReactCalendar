@@ -4,9 +4,9 @@ import './DayBox.css';
 class DayBox extends React.Component {
     render() {
       return (
-        <div className="box">
-        
-        </div>
+        <td>
+            {this.props.value}
+        </td>
       );
     }
   }
